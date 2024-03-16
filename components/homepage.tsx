@@ -89,7 +89,7 @@ export function Homepage() {
           </CarouselContent>
         </Carousel>
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
-          <h2 className="text-4xl bg-gradient-to-r from-stone-300 via-yellow-300 to-zinc-200 font-semibold bg-clip-text text-transparent hover:scale-105 transition duration-150 border-purple-100 border-1 p-1 hover:border-red-500 hover:tracking-widest hover:font-thin hover:drop-shadow-2xl  rounded-md">
+          <h2 className="text-4xl bg-gradient-to-r from-stone-300 via-amber-300 to-zinc-200 font-semibold bg-clip-text text-transparent hover:scale-105 transition duration-150 border-purple-100 border-1 p-1 hover:border-red-500 hover:tracking-widest hover:font-thin hover:drop-shadow-2xl  rounded-md">
             Bespoke Luxury Dining Experiences at Your Convinience
           </h2>
           <p className="m-2 mt-4 text-lg font-light">
