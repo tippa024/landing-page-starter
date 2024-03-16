@@ -3,7 +3,10 @@
 import * as React from "react"
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
-} from "embla-carousel-react"
+} from "embla-carousel-react";
+import AutoplayPlugin from "embla-carousel-autoplay";
+
+// Rest of the code...
 import { ArrowLeft, ArrowRight } from "lucide-react"
 
 import { cn } from "@/lib/utils"
@@ -58,12 +61,23 @@ const Carousel = React.forwardRef<
     },
     ref
   ) => {
+    const autoplayPlugin = React.useMemo(
+      () =>
+        AutoplayPlugin({
+          delay: 3000,
+          stopOnInteraction: true,
+          stopOnMouseEnter: true,
+        }),
+      []
+    );
+
     const [carouselRef, api] = useEmblaCarousel(
       {
         ...opts,
         axis: orientation === "horizontal" ? "x" : "y",
+        loop: true,
       },
-      plugins
+      [autoplayPlugin, ...(plugins || [])]
     )
     const [canScrollPrev, setCanScrollPrev] = React.useState(false)
     const [canScrollNext, setCanScrollNext] = React.useState(false)
