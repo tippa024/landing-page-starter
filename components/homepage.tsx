@@ -53,6 +53,12 @@ export function Homepage() {
                   alt="Hero Image 1"
                   className="w-full h-[500px] object-cover filter blur-[1px] rounded-lg"
                   src="https://cdn-imgix.headout.com/media/images/ab23a4e045f8fc933654c21fbeec18f9-1946-dubai-meal-at-jun-sui--burj-al-arab-01.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
+                  style={{
+                    aspectRatio: "390/240",
+                    objectFit: "cover",
+                  }}
+                  height="2400"
+                  width="3900"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-75 rounded-lg"></div>
               </div>
@@ -63,6 +69,12 @@ export function Homepage() {
                   alt="Hero Image 2"
                   className="w-full h-[500px] object-cover filter blur-[1px] rounded-lg"
                   src="https://cdn-imgix.headout.com/media/images/9731441605b8e979c668f53416b07e04-20719-dubai-saffron-dinner-buffet--including-soft-drinks--at-atlantis-the-palm-08.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
+                  style={{
+                    aspectRatio: "390/240",
+                    objectFit: "cover",
+                  }}
+                  height="2400"
+                  width="3900"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-75 rounded-lg"></div>
               </div>
@@ -73,6 +85,12 @@ export function Homepage() {
                   alt="Hero Image 3"
                   className="w-full h-[500px] object-cover filter blur-[1px] rounded-lg"
                   src="https://cdn-imgix.headout.com/media/images/04c931ab61a78d8926b08309d5696c91-25612-dubai-seven-paintings-dineamation-experience-03.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
+                  style={{
+                    aspectRatio: "390/240",
+                    objectFit: "cover",
+                  }}
+                  height="2400"
+                  width="3900"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-75 rounded-lg"></div>
               </div>
@@ -83,6 +101,12 @@ export function Homepage() {
                   alt="Hero Image 3"
                   className="w-full h-[500px] object-cover filter blur-[1px] rounded-lg"
                   src="https://cdn-imgix.headout.com/media/images/d73a4af9ffff7a6c3e8b25171ef6485b-23949-dubai-girl---the-goose-underground-dining-experience-01.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
+                  style={{
+                    aspectRatio: "390/240",
+                    objectFit: "cover",
+                  }}
+                  height="2400"
+                  width="3900"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-75 rounded-lg"></div>
               </div>
