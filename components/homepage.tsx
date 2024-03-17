@@ -59,6 +59,7 @@ export function Homepage() {
                   }}
                   height="2400"
                   width="3900"
+                  quality={100}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-75 rounded-lg"></div>
               </div>
@@ -75,6 +76,7 @@ export function Homepage() {
                   }}
                   height="2400"
                   width="3900"
+                  quality={100}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-75 rounded-lg"></div>
               </div>
@@ -91,6 +93,7 @@ export function Homepage() {
                   }}
                   height="2400"
                   width="3900"
+                  quality={100}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-75 rounded-lg"></div>
               </div>
@@ -107,6 +110,7 @@ export function Homepage() {
                   }}
                   height="2400"
                   width="3900"
+                  quality={100}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-75 rounded-lg"></div>
               </div>
@@ -132,20 +136,18 @@ export function Homepage() {
           <Carousel className="w-full">
             <CarouselContent>
               <CarouselItem>
-                <CardContent className="flex flex-nowrap gap-4">
-                  <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
+                <CardContent className="flex flex-col sm:flex-row gap-4">
+                  <div className="w-full sm:w-1/2 hover:scale-105 transition duration-50">
                     <Image
                       alt="Luxury Dining Experience"
-                      height="240"
+                      height={240}
                       src="https://cdn-imgix.headout.com/media/images/58545fc8e2b331dad16f620d7aec5ea6-25527-dubai-at.-mosphere-burj-khalifa-02.jpg?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
-                      style={{
-                        aspectRatio: "390/240",
-                        objectFit: "cover",
-                      }}
-                      width="390"
+                      layout="responsive"
+                      objectFit="cover"
+                      width={390}
                     />
-                    <p className="mt-2">At.Mosphere Burj Khalifa Dining at 122nd floor</p>
-                    <p className="mt-1 text-sm font-bold">
+                    <p className="mt-2 text-sm sm:text-base">At.Mosphere Burj Khalifa Dining at 122nd floor</p>
+                    <p className="mt-1 text-xs sm:text-sm font-bold">
                       $100{" "}
                       <span className="text-purple-500">
                         <i className="fas fa-star"></i> 4.4/5 (25)
@@ -155,38 +157,34 @@ export function Homepage() {
                       </span>
                     </p>
                   </div>
-                  <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
+                  <div className="w-full sm:w-1/2 hover:scale-105 transition duration-50">
                     <Image
                       alt="Luxury Dining Experience"
-                      height="240"
+                      height={240}
                       src="https://cdn-imgix.headout.com/media/images/1617449bf7cf1bbc0e48ae0cff1af033-1946---Dubai---Meal-at-Jun-Sui--Burj-Al-Arab---05.jpg?w=456&h=291&crop=faces&auto=compress%2Cformat&fit=min"
-                      style={{
-                        aspectRatio: "390/240",
-                        objectFit: "cover",
-                      }}
-                      width="390"
+                      layout="responsive"
+                      objectFit="cover"
+                      width={390}
                     />
-                    <p className="mt-2">Tickets to CE LA VI Dubai: Lunch Set Menu with Burj Khalifa Views</p>
-                    <p className="mt-1 text-sm font-bold">
+                    <p className="mt-2 text-sm sm:text-base">Tickets to CE LA VI Dubai: Lunch Set Menu with Burj Khalifa Views</p>
+                    <p className="mt-1 text-xs sm:text-sm font-bold">
                       $80{" "}
                       <span className="text-purple-500">
                         <i className="fas fa-star"></i> 4.5/5 (387)
                       </span>
                     </p>
                   </div>
-                  <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
+                  <div className="w-full sm:w-1/2 hover:scale-105 transition duration-50">
                     <Image
                       alt="Luxury Dining Experience"
-                      height="240"
-                      src="https://cdn-imgix.headout.com/media/images/57f24adae4c834bf54fd543781eec4ee-21788-dubai-lunch-or-dinner-buffet-at-mundo-jumeirah-emirates-towers--01.jpg?w=576&h=360&crop=faces&auto=compress%2Cformat&fit=min"
-                      style={{
-                        aspectRatio: "390/240",
-                        objectFit: "cover",
-                      }}
-                      width="390"
+                      src="https://cdn-imgix.headout.com/media/images/738bdb1fa0025aac0588a86789dfecd7-21788-dubai-lunch-or-dinner-buffet-at-mundo-jumeirah-emirates-towers--05.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
+                      height={240}
+                      layout="responsive"
+                      objectFit="cover"
+                      width={390}
                     />
-                    <p className="mt-2">Mundo Dining Experience with Themed Nights</p>
-                    <p className="mt-1 text-sm font-bold">
+                    <p className="mt-2 text-sm sm:text-base">Mundo Dining Experience</p>
+                    <p className="mt-1 text-xs sm:text-sm font-bold">
                       $60{" "}
                       <span className="text-purple-500">
                         <i className="fas fa-star"></i> NEW
@@ -196,39 +194,36 @@ export function Homepage() {
                 </CardContent>
               </CarouselItem>
               <CarouselItem>
-                <CardContent className="flex flex-nowrap gap-4">
-                  <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
+                <CardContent className="flex flex-col sm:flex-row gap-4">
+                  <div className="w-full sm:w-1/2 hover:scale-105 transition duration-50">
                     <Image
                       alt="Luxury Dining Experience"
-                      height="240"
                       src="https://cdn-imgix.headout.com/media/images/bf495b1a20b4de4c74b6e8cd327a25fa-25612-dubai-seven-paintings-dineamation-experience-02.jpg?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
-                      style={{
-                        aspectRatio: "390/240",
-                        objectFit: "cover",
-                      }}
-                      width="390"
+                      height={240}
+                      layout="responsive"
+                      objectFit="cover"
+                      width={390}
                     />
-                    <p className="mt-2">Seven Paintings Immersive Dining Show with 7-Course Menu</p>
-                    <p className="mt-1 text-sm font-bold">
+                    <p className="mt-2 text-sm sm:text-base">Seven Paintings Immersive Dining Show with 7-Course Menu</p>
+                    <p className="mt-1 text-xs sm:text-sm font-bold">
                       $120{" "}
                       <span className="text-purple-500">
                         <i className="fas fa-star"></i> NEW
                       </span>
                     </p>
                   </div>
-                  <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
+                  <div className="w-full sm:w-1/2 hover:scale-105 transition duration-50">
                     <Image
                       alt="Luxury Dining Experience"
-                      height="240"
+
                       src="https://cdn-imgix.headout.com/media/images/72b36bf7234a7c33671178f19a5cdab5-11.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
-                      style={{
-                        aspectRatio: "390/240",
-                        objectFit: "cover",
-                      }}
-                      width="390"
+                      height={240}
+                      layout="responsive"
+                      objectFit="cover"
+                      width={390}
                     />
-                    <p className="mt-2">Dinner in the Sky at the 360 degree views of Plam</p>
-                    <p className="mt-1 text-sm font-bold">
+                    <p className="mt-2 text-sm sm:text-base">Dinner in the Sky at the 360 degree views of Plam</p>
+                    <p className="mt-1 text-xs sm:text-sm font-bold">
                       $200{" "}
                       <span className="text-purple-500">
                         <i className="fas fa-star"></i> 4.3/5 (820)
@@ -238,19 +233,17 @@ export function Homepage() {
                       </span>
                     </p>
                   </div>
-                  <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
+                  <div className="w-full sm:w-1/2 hover:scale-105 transition duration-50">
                     <Image
                       alt="Luxury Dining Experience"
-                      height="240"
                       src="https://cdn-imgix.headout.com/media/images/f76641ace3b9aec75f4af113614da41e-20719-dubai-saffron-dinner-buffet--including-soft-drinks--at-atlantis-the-palm-07.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
-                      style={{
-                        aspectRatio: "390/240",
-                        objectFit: "cover",
-                      }}
-                      width="390"
+                      height={240}
+                      layout="responsive"
+                      objectFit="cover"
+                      width={390}
                     />
-                    <p className="mt-2">Dinner Buffet at Saffron Atlantis with Entry to Ambassador Lagoon</p>
-                    <p className="mt-1 text-sm font-bold">
+                    <p className="mt-2 text-sm sm:text-base">Dinner Buffet at Saffron Atlantis with Entry to Ambassador Lagoon</p>
+                    <p className="mt-1 text-xs sm:text-sm font-bold">
                       $70{" "}
                       <span className="text-purple-500">
                         <i className="fas fa-star"></i> 4.4/5 (35)
