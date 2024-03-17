@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { CardContent } from "@/components/ui/card"
@@ -48,7 +49,7 @@ export function Homepage() {
           <CarouselContent>
             <CarouselItem>
               <div className="relative">
-                <img
+                <Image
                   alt="Hero Image 1"
                   className="w-full h-[500px] object-cover filter blur-[1px] rounded-lg"
                   src="https://cdn-imgix.headout.com/media/images/ab23a4e045f8fc933654c21fbeec18f9-1946-dubai-meal-at-jun-sui--burj-al-arab-01.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
@@ -58,7 +59,7 @@ export function Homepage() {
             </CarouselItem>
             <CarouselItem>
               <div className="relative">
-                <img
+                <Image
                   alt="Hero Image 2"
                   className="w-full h-[500px] object-cover filter blur-[1px] rounded-lg"
                   src="https://cdn-imgix.headout.com/media/images/9731441605b8e979c668f53416b07e04-20719-dubai-saffron-dinner-buffet--including-soft-drinks--at-atlantis-the-palm-08.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
@@ -68,7 +69,7 @@ export function Homepage() {
             </CarouselItem>
             <CarouselItem>
               <div className="relative">
-                <img
+                <Image
                   alt="Hero Image 3"
                   className="w-full h-[500px] object-cover filter blur-[1px] rounded-lg"
                   src="https://cdn-imgix.headout.com/media/images/04c931ab61a78d8926b08309d5696c91-25612-dubai-seven-paintings-dineamation-experience-03.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
@@ -78,7 +79,7 @@ export function Homepage() {
             </CarouselItem>
             <CarouselItem>
               <div className="relative">
-                <img
+                <Image
                   alt="Hero Image 3"
                   className="w-full h-[500px] object-cover filter blur-[1px] rounded-lg"
                   src="https://cdn-imgix.headout.com/media/images/d73a4af9ffff7a6c3e8b25171ef6485b-23949-dubai-girl---the-goose-underground-dining-experience-01.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
@@ -93,7 +94,7 @@ export function Homepage() {
             Bespoke Luxury Dining Experiences at Your Convinience
           </h2>
           <p className="m-2 mt-4 text-lg font-light">
-            Elevate Your Senses: Discover Dubai's Finest Dining, Beloved by Thousands, Starting at $60
+            Elevate Your Senses: Discover Dubai&rsquo;s Finest Dining, Beloved by Thousands, Starting at $60
           </p>
           <p className="m-2 mt-4 text-lg bg-red-500 rounded-lg p-1 font-medium hover:scale-105 transition duration-150">
             Book Now
@@ -109,7 +110,7 @@ export function Homepage() {
               <CarouselItem>
                 <CardContent className="flex flex-nowrap gap-4">
                   <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
-                    <img
+                    <Image
                       alt="Luxury Dining Experience"
                       height="240"
                       src="https://cdn-imgix.headout.com/media/images/58545fc8e2b331dad16f620d7aec5ea6-25527-dubai-at.-mosphere-burj-khalifa-02.jpg?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
@@ -131,7 +132,7 @@ export function Homepage() {
                     </p>
                   </div>
                   <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
-                    <img
+                    <Image
                       alt="Luxury Dining Experience"
                       height="240"
                       src="https://cdn-imgix.headout.com/media/images/1617449bf7cf1bbc0e48ae0cff1af033-1946---Dubai---Meal-at-Jun-Sui--Burj-Al-Arab---05.jpg?w=456&h=291&crop=faces&auto=compress%2Cformat&fit=min"
@@ -150,7 +151,7 @@ export function Homepage() {
                     </p>
                   </div>
                   <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
-                    <img
+                    <Image
                       alt="Luxury Dining Experience"
                       height="240"
                       src="https://cdn-imgix.headout.com/media/images/57f24adae4c834bf54fd543781eec4ee-21788-dubai-lunch-or-dinner-buffet-at-mundo-jumeirah-emirates-towers--01.jpg?w=576&h=360&crop=faces&auto=compress%2Cformat&fit=min"
@@ -173,7 +174,7 @@ export function Homepage() {
               <CarouselItem>
                 <CardContent className="flex flex-nowrap gap-4">
                   <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
-                    <img
+                    <Image
                       alt="Luxury Dining Experience"
                       height="240"
                       src="https://cdn-imgix.headout.com/media/images/bf495b1a20b4de4c74b6e8cd327a25fa-25612-dubai-seven-paintings-dineamation-experience-02.jpg?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
@@ -192,7 +193,7 @@ export function Homepage() {
                     </p>
                   </div>
                   <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
-                    <img
+                    <Image
                       alt="Luxury Dining Experience"
                       height="240"
                       src="https://cdn-imgix.headout.com/media/images/72b36bf7234a7c33671178f19a5cdab5-11.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
@@ -214,7 +215,7 @@ export function Homepage() {
                     </p>
                   </div>
                   <div className="w-[calc(50%-1rem)] hover:scale-105 transition duration-50">
-                    <img
+                    <Image
                       alt="Luxury Dining Experience"
                       height="240"
                       src="https://cdn-imgix.headout.com/media/images/f76641ace3b9aec75f4af113614da41e-20719-dubai-saffron-dinner-buffet--including-soft-drinks--at-atlantis-the-palm-07.jpg?w=1200&h=750&crop=faces&auto=compress%2Cformat&fit=min"
@@ -244,7 +245,7 @@ export function Homepage() {
         <h3 className="text-xl font-semibold">Habibi Welcome to Dubai</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
           <div className="hover:scale-105 transition duration-50">
-            <img
+            <Image
               alt="Global Village Dubai Tickets"
               height="180"
               src="https://cdn-imgix.headout.com/media/images/58edeca4e72dd3d0a6e427d2f9e32fb0-2449-Dubai-TicketstoGlobalVillageDubai-15.jpg?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
@@ -260,7 +261,7 @@ export function Homepage() {
             </p>
           </div>
           <div className="hover:scale-105 transition duration-50">
-            <img
+            <Image
               alt="Dubai Miracle Garden Skip-the-Line Entry Tickets"
               height="180"
               src="https://cdn-imgix.headout.com/tour/26849/TOUR-IMAGE/c1a53b3a-69c7-46ce-9c6e-5bc91d486a62-14133-dubai-dubai-miracle-garden-11.jpg?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
@@ -276,7 +277,7 @@ export function Homepage() {
             </p>
           </div>
           <div className="hover:scale-105 transition duration-50">
-            <img
+            <Image
               alt="IMGCWt"
               height="180"
               src="https://cdn-imgix.headout.com/tour/7064/TOUR-IMAGE/b2c74200-8da7-439a-95b6-9cad1aa18742-4445-dubai-img-worlds-of-adventure-tickets-02.jpeg?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
@@ -292,7 +293,7 @@ export function Homepage() {
             </p>
           </div>
           <div className="hover:scale-105 transition duration-50">
-            <img
+            <Image
               alt="Burj Khalifa At the Top Tickets: Level 124 & 125"
               height="180"
               src="https://cdn-imgix.headout.com/tour/2638/TOUR-IMAGE/5c69fb75-54ec-4ed3-a9cd-d4e8c56ce8b4-1866-dubai-burj-khalifa-at-the-top-tickets--level-124---125-05.jpeg?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
@@ -308,7 +309,7 @@ export function Homepage() {
             </p>
           </div>
           <div className="hover:scale-105 transition duration-50">
-            <img
+            <Image
               alt="Dubai Frame Tickets with Optional Meal Voucher"
               height="180"
               src="https://cdn-imgix.headout.com/media/images/6c6519b8db7ddab3f5381d54ee30032a-Frame-banner.jpg?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
@@ -325,7 +326,7 @@ export function Homepage() {
             </p>
           </div>
           <div className="hover:scale-105 transition duration-50">
-            <img
+            <Image
               alt="Tickets to Aquaventure Waterpark"
               height="180"
               src="https://cdn-imgix.headout.com/tour/2643/TOUR-IMAGE/85367319-ed2e-4bf5-9e44-3f5fcd09f3ff-AquaventureWaterParkTickets-02.JPG?w=930&h=581.25&crop=faces&auto=compress%2Cformat&fit=min"
@@ -341,7 +342,7 @@ export function Homepage() {
             </p>
           </div>
           <div className="hover:scale-105 transition duration-50">
-            <img
+            <Image
               alt="Desert Safari with Entertainment & BBQ Dinner"
               height="180"
               src="https://cdn-imgix.headout.com/tour/2671/TOUR-IMAGE/4ba76259-a481-4bd7-b78e-2d6d50f3a239-1887-dubai--classic-desert-safari-with-entertainment-03.jpg?w=490.5&h=306&crop=faces&auto=compress%2Cformat&fit=min"
@@ -357,7 +358,7 @@ export function Homepage() {
             </p>
           </div>
           <div className="hover:scale-105 transition duration-50">
-            <img
+            <Image
               alt="Dubai Aquarium & Underwater Zoo Tickets"
               height="180"
               src="https://cdn-imgix.headout.com/media/images/fc71110a7d400f5fc56062c80ce7ddb0-AdobeStock-52233543.jpeg?w=490.5&h=306&crop=faces&auto=compress%2Cformat&fit=min"
