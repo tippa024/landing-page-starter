@@ -28,7 +28,7 @@ export function Homepage() {
         <Input className="flex-grow mr-4" placeholder="Search for finiest dinning experiences in Dubai" />
         <Button variant="outline">Search</Button>
       </div>
-      <div className="flex justify-between items-center mt-4 space-x-4">
+      <div className="flex justify-start whitespace-nowrap items-center mt-4 space-x-4 overflow-x-auto">
         <Button variant="outline" className="bg-white text-black px-6 py-3 rounded-lg hover:shadow-md hover:bg-stone-100 transition duration-300">
           Dining with Views
         </Button>
