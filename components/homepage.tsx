@@ -11,15 +11,16 @@ export function Homepage() {
       <header className="flex justify-between items-center py-6">
         <a href="https://www.headout.com" target="_blank" rel="noopener noreferrer">
           <h1 className="text-3xl font-bold text-purple-700">HEADOUT</h1>
+          <Link className="text-sm text-purple-700 font-mono" href="#">
+            Dubai
+          </Link>
         </a>
         <nav className="flex items-center space-x-4">
           <Link className="text-sm" href="#">
             English/USD
           </Link>
 
-          <Link className="text-sm" href="#">
-            Dubai
-          </Link>
+
 
           <Button className="border-2 bg-white text-stone-500">Sign In</Button>
         </nav>
@@ -28,7 +29,7 @@ export function Homepage() {
         <Input className="flex-grow mr-4" placeholder="Search for finiest dinning experiences in Dubai" />
         <Button variant="outline">Search</Button>
       </div>
-      <div className="flex justify-start whitespace-nowrap items-center mt-4 space-x-4 overflow-x-auto">
+      <div className="flex justify-between whitespace-nowrap items-center mt-4 space-x-4 overflow-x-auto">
         <Button variant="outline" className="bg-white text-black px-6 py-3 rounded-lg hover:shadow-md hover:bg-stone-100 transition duration-300">
           Dining with Views
         </Button>
