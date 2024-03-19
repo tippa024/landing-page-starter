@@ -375,7 +375,7 @@ export function Homepage() {
               width={390}
             />
             <div className="absolute top-1 left-1 bg-white text-black px-2 py-1 text-sm rounded-lg">Free cancellation</div>
-            <p className="mt-2 text-sm sm:text-base">5-course Underground Dining Experience at Chef Kuv's Secret</p>
+            <p className="mt-2 text-sm sm:text-base">5-course Underground Dining Experience at Chef Kuv&rsquo;s Secret</p>
             <p className="mt-1 text-xs sm:text-sm font-bold">
               $100 <span className="text-purple-500"><i className="fas fa-star"></i> New </span>
             </p>
