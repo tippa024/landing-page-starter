@@ -70,7 +70,7 @@ export function Homepage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-transparent opacity-75 rounded-lg"></div>
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
                   <h2 className="text-4xl mb-5 bg-gradient-to-r from-stone-300 via-amber-300 to-zinc-200 font-semibold bg-clip-text text-transparent hover:scale-105 transition duration-150 border-purple-100 border-1 p-1 hover:drop-shadow-2xl rounded-md">
-                    Chef Crated Experience With Unparalled Views Of The Burj
+                    Chef Crafted Experience With Unparalled Views Of The Burj
                   </h2>
                   <div className="">
                     <span className=" text-white rounded-full tracking-widest font-extralight hover:scale-105 transition duration-75 ">
