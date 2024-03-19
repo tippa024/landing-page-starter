@@ -64,7 +64,7 @@ const Carousel = React.forwardRef<
     const autoplayPlugin = React.useMemo(
       () =>
         AutoplayPlugin({
-          delay: 3000,
+          delay: 5000,
           stopOnInteraction: true,
           stopOnMouseEnter: true,
         }),
